@@ -33,7 +33,7 @@ por padrão, a forma geométrica tem a cor <strong>vermelha</strong>, mas se o p
 <b>EX.: bola.ColorObject = System.Drawing.Color.Green;</b>
 
 Com este simples código, agora temos uma bola verde, mas ainda falta desenhá-la na tela. Para desenhar uma forma geométrica na tela após ter instânciado um objeto da forma desejada utilizando Geometrik, basta chamar o método <strong>DrawFormat</strong> e passar um <strong>PaintEventArgs</strong> como argumento.
-
+'''
 <h3>Exemplos</h3>
 <h4>Este exemplo desenha um quadrado azul 50 x 50 preenchido na tela:</h4>
 <p>private void panel_square(object sender, PaintEventArgs e)</p>
@@ -42,4 +42,4 @@ Com este simples código, agora temos uma bola verde, mas ainda falta desenhá-l
 <p>   square.ColorObject = System.Drawing.Color.Blue;</p>
 <p>   square.DrawFormat(e);</p>
 <p>}</p>
-
+'''
